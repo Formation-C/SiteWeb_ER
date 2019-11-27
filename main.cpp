@@ -4,6 +4,7 @@
 #include "Event.h"
 #include <algorithm>
 #include <vector>
+#include"Subscription.h"
 
 using namespace std;
 
@@ -15,7 +16,12 @@ void display(Event* _event)
 int main()
 {
     User member;
-    Event event1;
+    new Event("Rando VTT GTJ");
+    new Event("Rando VTT Transbeaujo");
+    new Event("Rando VTT thil");
+
+
+    new Subscription(Event::objects[0], "Eric");
 
     member.Setname("Eric");
     member.Setid(1);
@@ -24,10 +30,14 @@ int main()
 //    event1.Setid(1);
 
     // Parcourt l'ensemble des instances de la classe
-    vector<Event*>* v = &Event::objects;
+    vector<Event*>* e = &Event::objects;
+    vector<Subscription*>* s = &Subscription::objects;
 
-    for_each(v->begin(), v->end(), display);
+    for_each(e->begin(), e->end(), display);
 
-    cout << "Hello world!" << endl;
+    for_each(s->begin(), s->end(), display);
+
+
+
     return 0;
 }

@@ -1,8 +1,9 @@
 #include "Event.h"
 
-Event::Event()
+Event::Event(string _name) : name(_name)
 {
     //ctor
+    objects.push_back(this);
 }
 
 Event::~Event()

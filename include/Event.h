@@ -9,7 +9,7 @@ class Event
 {
     public:
         /** Default constructor */
-        Event();
+        Event(std::string name);
         /** Default destructor */
         virtual ~Event();
 
