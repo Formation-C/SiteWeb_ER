@@ -1,0 +1,63 @@
+# depslib dependency file v1.0
+1574868758 source:d:\devt\formationc\siteweb_er\main.cpp
+	<iostream>
+	<sstream>
+	"User.h"
+	"Event.h"
+	<algorithm>
+	<vector>
+
+1574864370 source:d:\devt\formationc\siteweb_er\src\abstractcategory.cpp
+	<iostream>
+	"AbstractCategory.h"
+
+1574864874 d:\devt\formationc\siteweb_er\include\abstractcategory.h
+	<iostream>
+
+1574864974 source:d:\devt\formationc\siteweb_er\src\agendacategory.cpp
+	"AgendaCategory.h"
+
+1574864974 d:\devt\formationc\siteweb_er\include\agendacategory.h
+	<AbstractCategory.h>
+
+1574864974 source:d:\devt\formationc\siteweb_er\src\forumcategory.cpp
+	"ForumCategory.h"
+
+1574864974 d:\devt\formationc\siteweb_er\include\forumcategory.h
+	<Abstractcategory.h>
+
+1574867165 source:d:\devt\formationc\siteweb_er\src\member.cpp
+	<iostream>
+	"Member.h"
+
+1574867444 d:\devt\formationc\siteweb_er\include\member.h
+	<User.h>
+
+1574864990 d:\devt\formationc\siteweb_er\include\user.h
+	<iostream>
+
+1574864448 source:d:\devt\formationc\siteweb_er\src\user.cpp
+	<iostream>
+	"User.h"
+
+1574865029 source:d:\devt\formationc\siteweb_er\src\guest.cpp
+	"Guest.h"
+
+1574865233 d:\devt\formationc\siteweb_er\include\guest.h
+	<iostream>
+	<User.h>
+
+1574865168 source:d:\devt\formationc\siteweb_er\src\subscription.cpp
+	"Subscription.h"
+
+1574865233 d:\devt\formationc\siteweb_er\include\subscription.h
+	<iostream>
+
+1574867654 source:d:\devt\formationc\siteweb_er\src\event.cpp
+	"Event.h"
+	<vector>
+
+1574868758 d:\devt\formationc\siteweb_er\include\event.h
+	<iostream>
+	<vector>
+
